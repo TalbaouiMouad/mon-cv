@@ -1,0 +1,117 @@
+body{
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-image:url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Century Gothic";
+    font-size: xx-large;
+}
+#cv{
+    width: 50%;
+    margin-inline:  auto;
+    border: #04152f solid 1px;
+    display: flex;
+    margin-bottom: 0%;
+    background-color: #e5e5e5;
+}
+ p{
+    text-align: justify;
+} 
+#GAUCHE{
+    position: relative;
+    width: 50%;
+    background-color: #04152f;
+    color: aliceblue;
+    margin-right: 15PX;
+}  
+aside img{
+    position: static;
+    width: 100%;
+    margin: 0%;
+    
+}
+#nom{
+    position: relative;
+    bottom: 20px;
+    left:200px; 
+    background-color: rgba(116,175,121,0.7);
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    width: 100%;
+    text-align: center;
+    font-style: oblique ;
+}
+aside article{
+    position: relative;
+    margin-inline: 10px;
+    margin-top: 80px;
+}
+#interets{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.lolo{
+    height: 410px;
+    margin: 0px 0px 600px 0px;
+}
+h3,dt{
+    font-style: italic;
+    font-size: 60px; 
+}
+div h2{
+    font-style: italic;
+    font-size: 40px; 
+}
+aside h2{
+    text-decoration: underline;
+}
+dt{
+    margin-bottom: 5px;
+}
+main{
+    margin-inline: 15px;
+}
+.fa-quote-right{
+float: left;
+width: 80px;
+height: 80px;
+font-size: 80px;
+}
+#info{
+    position: relative;
+    left: 130px;
+    width: 900px;
+    display: flex;
+    flex-flow: row wrap;  
+}
+#titre{
+background-color: #04152f;
+color: white;
+
+text-align: center;
+margin: 0%; 
+font-family: Cursive; 
+}
+main div section{
+    flex:1 1 350px;
+}
+main div section p,h3{  
+    text-align: center;
+    font-size: xx-large;
+}
+.para{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+hr{
+    margin: 15px;
+}
+#CI{
+    float: right;
+}
+
+
