@@ -5,16 +5,17 @@ body{
     background-image:url("../img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: "Century Gothic";
-    font-size: xx-large;
+    
 }
 #cv{
-    width: 50%;
+    width: 75%;
     margin-inline:  auto;
     border: #04152f solid 1px;
     display: flex;
     margin-bottom: 0%;
     background-color: #e5e5e5;
+    font-family: "Century Gothic";
+    font-size: 1em;
 }
  p{
     text-align: justify;
@@ -22,48 +23,47 @@ body{
 #GAUCHE{
     position: relative;
     width: 50%;
-    background-color: #04152f;
+    background-color: #0d2242cb;
     color: aliceblue;
-    margin-right: 15PX;
+    margin-right: 10px;
 }  
 aside img{
     position: static;
     width: 100%;
     margin: 0%;
+    border-radius: 50%;
     
 }
 #nom{
     position: relative;
-    bottom: 20px;
-    left:200px; 
+    bottom: 37px;
+    left: 40px; 
     background-color: rgba(116,175,121,0.7);
     color: rgb(255, 255, 255);
-    font-size: 100px;
-    width: 100%;
+    font-size: 3em;
+    width: 120%;
     text-align: center;
     font-style: oblique ;
 }
 aside article{
     position: relative;
     margin-inline: 10px;
-    margin-top: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #interets{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
-.lolo{
-    height: 410px;
-    margin: 0px 0px 600px 0px;
-}
+
 h3,dt{
     font-style: italic;
-    font-size: 60px; 
+    font-size: 1.5em; 
 }
 div h2{
     font-style: italic;
-    font-size: 40px; 
+    font-size: 1.8em; 
 }
 aside h2{
     text-decoration: underline;
@@ -71,36 +71,39 @@ aside h2{
 dt{
     margin-bottom: 5px;
 }
-main{
-    margin-inline: 15px;
-}
+
+
 .fa-quote-right{
 float: left;
-width: 80px;
-height: 80px;
-font-size: 80px;
+width: 5%;
+height: 5%;
+font-size: 2em;
+margin: 1%;
 }
 #info{
     position: relative;
-    left: 130px;
-    width: 900px;
+    left: 50px;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;  
 }
 #titre{
-background-color: #04152f;
+background-color: #0d2242cb;
 color: white;
 
 text-align: center;
 margin: 0%; 
 font-family: Cursive; 
 }
+main{
+    padding-inline: 2%;
+}
 main div section{
-    flex:1 1 350px;
+    flex:1 1 40%;
 }
 main div section p,h3{  
     text-align: center;
-    font-size: xx-large;
+    font-size: 1em;
 }
 .para{
     display: flex;
@@ -108,7 +111,7 @@ main div section p,h3{
     justify-content: left;
 }
 hr{
-    margin: 15px;
+    margin: 5%;
 }
 #CI{
     float: right;
